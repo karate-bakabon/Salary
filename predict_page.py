@@ -15,8 +15,8 @@ le_country=data['le_country']
 le_education=data['le_education']
 
 def show_predict_page():
-    st.title('Software Developer Predict Salary')
-    st.write("""### We need some information to predict the salary""")
+    st.title('ソフトウェア開発者の給与予測')
+    st.write("""### 給料を予測するための情報を選んでください""")
     
     countries=(
         "United States", 

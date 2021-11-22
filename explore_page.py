@@ -53,7 +53,7 @@ def load_data():
 df=load_data()
 
 def show_explore_page():
-    st.title("Explore software Engineer Salaries")
+    st.title("ソフトウェアエンジニアの給与を見る")
     st.write(
         """
     ### Stack Overflow Developper Survey 2020    
